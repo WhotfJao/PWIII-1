@@ -13,18 +13,15 @@ $titulo = "DevMentors Unimar";
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-info">
 <div class="container-fluid">
-<a class="navbar-brand" href="#">Navbar</a>
+<a class="navbar-brand" href="index.php">Inicio</a>
     <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" href="index.php">Inicio</a>
+            <a class="nav-link" href="cursos.php">Cursos</a>
         </li>
         <li class="nav-item"> 
-            <a class="nav-link" href="lista.php">Lista de Alunos</a>
+            <a class="nav-link" href="list.php">Lista de Alunos</a>
         </li>
             <a class="nav-link" href="create.php">Cadastrar Aluno</a>
-        </li>
-        <li class="nav-item"> 
-            <a class="nav-link" href="update.php">Atualizar</a>
         </li>
 </ul>
 </div>

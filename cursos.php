@@ -11,6 +11,12 @@
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     }
 
+    .categoria-card img {
+        width: 100%;
+        height: 300px; /* Altura fixa */
+        object-fit: cover; /* Ajusta a imagem sem distorção */
+    }
+
     .curso-card {
         cursor: pointer;
         transition: background-color 0.2s;
@@ -29,14 +35,19 @@
     }
 </style>
 
+<div class="container-fluid pt-5 bg-primary" style="height:150px">
+    <h1 class="text-center text-white">Categorias de Cursos</h1>
+   
+</div>
+
 <div class="container mt-5 text-center">
-    <h2 class="mb-4">Categorias de Cursos</h2>
+  
 
     <div class="row justify-content-center">
         <!-- Categoria Front-End -->
         <div class="col-md-4 mb-4">
             <div class="card categoria-card" onclick="mostrarCursos('front')">
-                <img src="https://via.placeholder.com/400x200?text=Front-End" class="card-img-top" alt="Front-End">
+                <img src="img/op-Ten-Front-End-Design-Rules-For-Developers_Luke-Social.png" class="card-img-top" alt="Front-End">
                 <div class="card-body">
                     <h5 class="card-title">Front-End</h5>
                     <p class="card-text">Cursos de desenvolvimento de interfaces e design responsivo.</p>
@@ -47,7 +58,7 @@
         <!-- Categoria Back-End -->
         <div class="col-md-4 mb-4">
             <div class="card categoria-card" onclick="mostrarCursos('back')">
-                <img src="https://via.placeholder.com/400x200?text=Back-End" class="card-img-top" alt="Back-End">
+                <img src="img/API-soluciones-seguras-para-controlar-el-acceso-de-tus-recursos.webp" class="card-img-top" alt="Back-End">
                 <div class="card-body">
                     <h5 class="card-title">Back-End</h5>
                     <p class="card-text">Cursos de lógica de programação, PHP, banco de dados e APIs.</p>
@@ -58,7 +69,7 @@
         <!-- Categoria Design -->
         <div class="col-md-4 mb-4">
             <div class="card categoria-card" onclick="mostrarCursos('design')">
-                <img src="https://via.placeholder.com/400x200?text=Design" class="card-img-top" alt="Design">
+                <img src="img/104228210.avif" class="card-img-top" alt="Design">
                 <div class="card-body">
                     <h5 class="card-title">Design</h5>
                     <p class="card-text">Criação visual, prototipagem, UI/UX com Figma e outras ferramentas.</p>

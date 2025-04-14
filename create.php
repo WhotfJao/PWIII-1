@@ -17,15 +17,13 @@ exit;
  
 <?php include 'header.php'; ?>
 
-    <div class="container-fluid pt-5 bg-info " style="height:200px">
-       <h1 class="text-center text-white border-bottom border-white" >DevMenthors Unimar </h1>
-       <h4 class="text-center text-white">Universidade de Marília - Marília - SP</h4> 
+    <div class="container-fluid pt-5 bg-primary" style="height:150px">
+       <h1 class="text-center text-white" > ADICIONAR ALUNO</h1>
     </div>
 
     <div class="container pt-4 pb-4">
-<h1 class="text-center display-3">ADICIONAR ALUNO</h1>
 </div>
-<div class="container bg-info p-4">
+<div class="container bg-primary p-2 rounded ">
 <form method="POST" class="form-control">
     <div class="row">
         <div class="col-md-9 col-sm-6 col-xs-12">
@@ -49,14 +47,14 @@ exit;
 </div>
 <div class="row">
     <div class="col-xs-12">
-<button class="btn btn-info text-white form-control mt-2" type="submit">Salvar</button>
+<button class="btn btn-primary text-white w-50 d-block mx-auto mt-4" type="submit">Salvar</button>
 </div>
 </div>
 </form>
 </div>
 <div class="container p-4">
     <div class="col-xs-4 col-offset-xs-4">
-<a class="btn btn-secondary form-control" href="index.php">Voltar</a>
+<a class="btn btn-warning form-control w-50 mx-auto d-block" href="index.php">Voltar</a>
 </div>
 </div>
 

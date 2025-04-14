@@ -8,12 +8,12 @@
 <?php include 'header.php';
 ?>
 
-<div class="container pt-4 pb-4">
-    <h1 class="text-center">LISTA DE ALUNOS</h1>
-    <a class="btn btn-primary" href="create.php">Adicionar Aluno</a>
+<div class="container-fluid pt-5 bg-primary" style="height:200px">
+    <h1 class="text-center text-light">LISTA DE ALUNOS</h1>
+    <a class="btn btn-success" href="create.php">Adicionar Aluno +</a>
 </div>
 
-<div class="container table-responsive">
+<div class="container table-responsive mt-4">
     <table class="table table-bordered border-info table-striped table-hover">
         <thead>
             <tr>
